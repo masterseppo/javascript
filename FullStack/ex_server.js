@@ -10,7 +10,8 @@ var server = http.createServer(function(request, response) {
         response.write ('<h1> HHello Heading </h1>');
         response.write('mitähän vittua');
         response.write("<table border = 1> <tr> <th>juupas</th> <th>joopas</th> </tr> </table> ")
-        response.end ('<h2>  g wagon </h2>');
+        response.write("<table border = 1> <tr> <th>juupas</th> <th>joopas</th> </tr> </table> ")
+        response.end ('<h2> nyt saatana </h2>');
 
     }
 
